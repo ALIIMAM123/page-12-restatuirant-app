@@ -1,0 +1,38 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  align-items: center;
+ padding:5px;
+ height: 40px;
+  
+  
+}
+
+.left {
+  margin-left: 20px;
+  margin-top:14px
+}
+.profile {
+  margin-right: 5px;
+  margin-top:0px;
+ 
+}
+
+.my-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 767.98px) { 
+.profile-wrapper{
+  margin-top: 20px;
+}
+ 
+}

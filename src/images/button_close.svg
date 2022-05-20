@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="button_close" data-name="button close" transform="translate(-1469 -3375)">
+    <rect id="bg" width="20" height="20" rx="8" transform="translate(1469 3375)" fill="#fff"/>
+    <path id="icon_close_copy" data-name="icon close copy" d="M1479,3385.887l-3.106,3.105-.887-.887,3.106-3.105-3.106-3.105.887-.887,3.106,3.106,3.106-3.106.887.887-3.106,3.105,3.106,3.105-.887.887Z" fill="#7a86a1"/>
+  </g>
+</svg>

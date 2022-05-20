@@ -1,0 +1,234 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-section {
+    display: flex;
+  
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .left {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+  
+    margin-right: 15px;
+    margin-left: 6px;
+  }
+  
+  .right {
+    /* background-color: blue; */
+    color: white;
+    margin-right: 15px;
+    margin-left: 6px;
+    font-size: 10px;
+    color: #7a86a1;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+  }
+  .profile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid #7a86a1;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .my-profile {
+    margin-left: 8px;
+    color: #6149cd;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .my-password {
+    margin-left: 15px;
+    color: #000000;
+    font-family: "Manrope", sans-serif;
+    margin-top: 14px;
+  
+   
+  }
+  
+  .bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 6px;
+  }
+  
+  .left-section {
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .info-container,
+  .password-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+
+  }
+  
+  .middle-section {
+ 
+  }
+  
+  .form-wrapper-container {
+    height: 40vh;
+   
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .password-info-heading {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top:20px;
+    margin-bottom: 25px;
+
+
+  }
+  .current-password{
+    /* margin-top:15px; */
+  }
+  
+  .current-password-container,
+  .confirm-new-password-container,
+  .current-password-container {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    margin-left: 12px;
+ /*  */
+    display: flex;
+  
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+   
+  }
+  
+  .password {
+    /* width: 60%; */
+    height: 30px;
+    border-radius: 20px;
+    /* margin-left: 10px; */
+    border: 1px solid #ebebeb;
+    /* display: flex; */
+    /* flex:1; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+    width:80%;
+    margin-right: 18px;
+    margin-left:20px;
+  }
+ 
+  
+  .pass-2{
+   margin-left:35px;
+  }
+  .save-change-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding:10px;
+   
+  
+    
+    
+  }
+  
+  .save-button{
+    
+    color:#FFFFFF;
+    font-size: 14px;
+    display: flex;
+
+  background-color: #6149CD;
+  border-radius: 10px;
+  padding:5px;
+  border: none;
+  cursor: pointer;
+  }
+  
+  /* @media screen and (max-width:767px){
+     .left-section{
+       display:none;
+     }
+  } */
+
+  .form-button{
+      font-size:14px;
+      padding:15px;
+  }
+
+  .image{
+    height: 110px;
+    width:110px;
+
+  }
+
+  .photo-container{
+        position: relative;
+  }
+
+
+  .camera{
+    position:absolute;
+    /* left:0; */
+    right:220px;
+    margin-top:16px
+  }
+
+  @media screen and (min-width:579px){
+    .photo-container{
+      margin-top:80px;
+      
+    }
+  }
+
+  @media screen and (max-width:579px){
+    .camera{
+      position:absolute;
+      /* left:0; */
+      right:140px;
+      margin-top:16px
+    }
+
+    
+  
+  }
+
+  .photo-name{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+   
+  }

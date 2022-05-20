@@ -1,0 +1,62 @@
+ .navbar-container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+     /* width:100% !important; */
+ }
+
+ .heading{
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    font-size:52px;
+    margin-left:6px;
+ }
+
+ .para{
+    color: #7A86A1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left:6px;
+ }
+.search-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+  
+}
+
+.search{
+    
+    height: 45px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.icon{
+    cursor:pointer;
+}
+
+@media (max-width: 767.98px) { 
+     .third-container{
+         margin-top: 75px;
+     }
+     .heading{
+  font-size: 30px;;
+     }
+     .para{
+         font-size: 16px;
+     }
+ }
+

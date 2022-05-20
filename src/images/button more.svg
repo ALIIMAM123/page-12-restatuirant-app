@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="button_more" data-name="button more" transform="translate(-1837 -40)">
+    <g id="bg_copy_6" data-name="bg copy 6" transform="translate(1837 40)" fill="#fff" stroke="#ebebeb" stroke-width="1">
+      <rect width="45" height="45" rx="19" stroke="none"/>
+      <rect x="0.5" y="0.5" width="44" height="44" rx="18.5" fill="none"/>
+    </g>
+    <path id="icon_more" data-name="icon more" d="M1865,62.81a2,2,0,1,1,2,2A2,2,0,0,1,1865,62.81Zm-7,0a2,2,0,1,1,2,2A2,2,0,0,1,1858,62.81Zm-7,0a2,2,0,1,1,2,2A2,2,0,0,1,1851,62.81Z" fill="#c0bdcc"/>
+  </g>
+</svg>
