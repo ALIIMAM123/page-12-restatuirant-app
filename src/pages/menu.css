@@ -1,0 +1,142 @@
+
+
+@media only screen and (min-width:375px) and (max-width: 768px){
+    .sidebar{
+     display: none;
+    }
+}
+
+.menu{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Manrope', 'sans-serif'
+}
+
+.add-button{
+    background-color: #6149CD;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 20px;
+    cursor:pointer;
+    padding:20px;
+    border:none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-responsive{
+    height: 150px;
+    height:150px;
+    margin-right: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.chocolateImg{
+
+ cursor:pointer;
+}
+.text-on-image{
+    background-color: #6149CD;
+    color:#ffffff;
+    height:20px;
+    width:40px;
+    text-align: center;
+
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px;
+      text-align: center;
+      margin-left : 55px;
+      height:60px;
+      width:60px;
+      
+     
+
+}
+.name{
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+
+.connect-and-chat-heading{
+    text-align:center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top:30px;
+}
+.chat-now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    background-color: #6149CD;
+    color:#ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    border:none;
+    height:25px;
+    padding:22px;
+   font-size: 16px;
+    margin-top:25px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+
+@media only screen and (min-width:375px) and (max-width: 768px){
+    .sidebar{
+     display: none;
+    }
+    .menu{
+        font-size: 13px;
+    }
+    .add-button{
+
+    }
+    .chocolateImg{
+        display: flex;
+        flex-direction: column;
+    margin-bottom: 15px;
+    pointer:pointer;
+
+    }
+    .menu-button-container{
+        margin-bottom:30px;
+    }
+    .img-responsive{
+        height: 120px;
+        width:120px;
+       
+    }
+    .menu-button-logo{
+        margin-top: 20px;
+    }
+    .menu{
+        font-size: 20px;
+        margin-top:35px;
+    }
+}
+
+
+

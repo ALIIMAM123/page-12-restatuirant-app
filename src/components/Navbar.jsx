@@ -3,14 +3,18 @@ import React from 'react';
 import "./navbar.css";
 import { Badge } from "@material-ui/core";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  console.log(props)
+  const {MenuData} = props
+  console.log(MenuData)
+
   return (
       <div className='navbar-container'>
     <div className='container-fluid W-100'>
         <div className='row'>
            <div className=' col-md-7 col-6 gap-2 mt-4'>
-           <h1 className="heading">My Account</h1>
-              <p className="para">Hello Pizzeria italiana welcome back</p>
+           <h1 className="heading">{MenuData.menuheading}</h1>
+              <p className="para">{MenuData.menudesc}</p>
            </div>
            <div className=' col-md-3  col-6  search-container gap-2 mt-4'  >
            <div className="search-icon">
